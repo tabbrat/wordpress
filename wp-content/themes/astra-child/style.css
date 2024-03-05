@@ -1,0 +1,177 @@
+/**
+Theme Name: Astra Child
+Author: Brainstorm Force
+Author URI: http://wpastra.com/about/
+Description: Astra is the fastest, fully customizable & beautiful theme suitable for blogs, personal portfolios and business websites. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with schema.org code integrated so search engines will love your site. Astra offers plenty of sidebar options and widget areas giving you a full control for customizations. Furthermore, we have included special features and templates so feel free to choose any of your favorite page builder plugin to create pages flexibly. Some of the other features: # WooCommerce Ready # Responsive # Compatible with major plugins # Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained & Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and beautiful theme!
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: astra-child
+Template: astra
+*/
+
+.entry-content h1 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  color: white;
+  margin: 50px 0px 50px 0px;
+  height: 50px;
+  font-size: 50px;
+  font-family: 'syne' sans-serif;
+
+}
+
+.vtrcom {
+  color: white;
+  margin-left: 135px;
+
+}
+
+.entry-content h2,h6{
+  color: white;
+ 
+}
+
+input.wpcf7-form-control.wpcf7-submit.has-spinner  {
+  width:198px;
+  height: 56px;
+  background-color: #dc9f96;
+  color: white;
+  text-decoration: none;
+  margin: auto ;
+  border-radius:  0%;
+  padding: auto;
+  display: block;
+  align-self: start;
+}
+
+
+.contenair{
+	display: flex;
+	justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: space-between;
+  gap: 80px;
+}
+
+.contenair p {
+	display: flex;
+	flex-direction:column;
+	align-items:center;
+}
+
+.contenair p input{
+  max-width:39px;
+	max-height:56px;
+}
+
+
+label, legend
+{
+  color: white;
+}
+
+label {
+  display: block;
+  font-family:
+    2rem 'syne' sans-serif;
+}
+input,
+label {
+  margin: 0.4rem 0;
+}
+
+input.number{
+ display: flex;
+ align-items: center;
+  top:30px; 
+  left: 50px;
+  max-width: 39px;
+  max-height: 56px;
+  
+}
+
+.number p{
+  display: block;
+  align-items: center;
+}
+
+HR {
+  border-left: 3px solid #ffffff;
+  margin: 50px 90px 30px 90px;
+}
+
+.vertical-line{
+  border-left: 1px solid #ffffff;
+  height: 40%;
+  left: 50%;
+  position: absolute;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 0px 100px 0px 100px;
+  gap: 225px;
+}
+
+.wrapper  div {
+  flex: 1;
+}
+
+.wpcf7 label input{
+  width: 383px;
+  height: 71px;
+}
+
+.labl 
+{
+  color: black;
+}
+
+.wpcf7 label.labl input {
+  width: 383px;
+  height: 71px;
+}
+
+@media only screen and (max-width: 1250px) {
+  .vertical-line {
+    display : none;
+  }
+
+  .wrapper{
+   flex-direction: column;
+    width: 80%;
+    row-gap: 20px;
+    margin: auto;
+}
+.ast-theme-transparent-header 
+[data-section="section-header-mobile-trigger"]
+.ast-button-wrap
+.ast-mobile-menu-trigger-minimal{
+  background:#dc9f96;
+  margin: auto;
+}
+
+.elementor-76 
+.elementor-element
+.elementor-element-e4d64d3, 
+.elementor-76 .elementor-element
+.elementor-element-e4d64d3::before
+{
+  display: flex;
+  align-items: center;
+}
+.ast-flex {
+  display: flex;
+  justify-content: center;
+}
+}
+
+
+
+
+
+

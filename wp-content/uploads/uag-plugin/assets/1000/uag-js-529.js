@@ -1,0 +1,7 @@
+document.addEventListener("DOMContentLoaded", function(){ window.addEventListener("DOMContentLoaded", function(){
+	UAGBForms.init( {"block_id":"a3324047","reCaptchaEnable":false,"reCaptchaType":"v2","reCaptchaSiteKeyV2":"","reCaptchaSecretKeyV2":"","reCaptchaSiteKeyV3":"","reCaptchaSecretKeyV3":"","afterSubmitToEmail":"tabbrat@yahoo.fr","afterSubmitCcEmail":"","afterSubmitBccEmail":"","afterSubmitEmailSubject":"Soumission du formulaire","sendAfterSubmitEmail":true,"confirmationType":"message","hidereCaptchaBatch":false,"captchaMessage":"Veuillez remplir le captcha ci-dessus.","confirmationUrl":""}, '.uagb-block-a3324047', 529 );
+});
+window.addEventListener("DOMContentLoaded", function(){
+	UAGBForms.init( {"block_id":"be4df432","reCaptchaEnable":false,"reCaptchaType":"v2","reCaptchaSiteKeyV2":"","reCaptchaSecretKeyV2":"","reCaptchaSiteKeyV3":"","reCaptchaSecretKeyV3":"","afterSubmitToEmail":"tabbrat@yahoo.fr","afterSubmitCcEmail":"","afterSubmitBccEmail":"","afterSubmitEmailSubject":"Soumission du formulaire","sendAfterSubmitEmail":true,"confirmationType":"message","hidereCaptchaBatch":false,"captchaMessage":"Veuillez remplir le captcha ci-dessus.","confirmationUrl":""}, '.uagb-block-be4df432', 529 );
+});
+ });
